@@ -1,0 +1,166 @@
+html {
+    background-color: #ffa600;
+}
+
+.mainHeader {
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    animation: swag 5s cubic-bezier(0.175, 0.885, 0.32, 1.275)  0.4s;
+}
+  
+.mainHeader h1 {
+    display: inline-block;
+    margin: 50px 10px;
+}
+
+
+#addTask{
+    margin-top: 60px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#addTask input{
+    background-color: transparent;
+    padding: 6px;
+    border-radius: 4px;
+    width: 300px;
+    /* margin: 20px 0; */
+    color: #292929
+}
+
+.App h1{
+text-align: center;
+}
+
+.taskBubble{
+    width: 70%;
+    padding: 50px;
+    border-radius: 12px;
+    margin: auto;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #ffbb00;
+    background-color: #ff9100;
+    height: 100%;
+}
+
+.taskBubble ul{
+    list-style-type: none;
+}
+
+.individualTask{
+background-color: #2e2e2e;
+    margin:50px auto;
+    margin-bottom: 25px;
+    width: 70%;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.actions{
+    text-align: right;
+    padding-right: 10px;
+    /* margin-left: 93%; */
+}
+
+.Content h1{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.taskTitle{
+    color: #fd6e00;
+    padding:10px;
+}
+
+.taskTitleCompleted{
+    text-decoration: line-through;
+    padding: 10px;
+}
+
+.backdrop {
+    position: fixed;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+
+.modalBbl{
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28;
+    background-color: #2e2e2ef5;
+    padding: 1rem;
+    text-align: center;
+    width: 20em;
+    height: 10em;
+    z-index: 10;
+    position: fixed;
+    top: 30vh;
+    left: 35vw;
+}
+
+.modalText{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+/* .cancelBtn{
+
+} */
+
+
+.addBtn {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #fd6e00;
+    background-color: #292929;
+    width: 20px;
+    padding: 6px;
+    border-radius: 12px;
+    width: 70px;
+}
+
+.cancelBtn{
+    margin-right: 25px;
+}
+
+
+@-webkit-keyframes swag {
+    form {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes swag {
+    form {
+        -moz-transform: rotate(0deg);
+    }
+    to {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-o-keyframes swag {
+    form {
+        -o-transform: rotate(0deg);
+    }
+    to {
+        -o-transform: rotate(360deg);
+    }
+}
+@keyframes swag {
+    form {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
